@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+config.live.json
+config.local.json
+*.log
+*.sqlite
+*.sqlite-*
+*.tmp
+
+# The local Kraken data snapshot can be refreshed with market_data.py.
+/data/*.csv
+/raw-*.csv
+
+# Runtime state and temporary integration tests.
+/user_data/*
+!/user_data/strategies/
+/results/paper-check-*/
+/results/*-terminal.*

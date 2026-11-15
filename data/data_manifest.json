@@ -1,0 +1,28 @@
+{
+  "symbol": "BTC/USD",
+  "interval_seconds": 14400,
+  "first_open_utc": "2024-09-01T00:00:00+00:00",
+  "last_open_utc": "2026-11-15T12:00:00+00:00",
+  "cutoff_utc": "2026-11-15T16:00:00+00:00",
+  "bars": 4834,
+  "archive_entry": "XBTUSD_240.csv",
+  "archive_crc32": "db163c68",
+  "archive_bars": 4559,
+  "archive_parts": [
+    "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_Full.zip.part00",
+    "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_Full.zip.part01",
+    "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_Full.zip.part02",
+    "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_Full.zip.part03",
+    "https://assets.kraken.com/marketing/institutions/Kraken_OHLCVT_Full.zip.part04"
+  ],
+  "rest_endpoint": "https://api.kraken.com/0/public/OHLC",
+  "rest_bars_added": 274,
+  "overlap_ohlc_matched": 13,
+  "confirmed_no_trade_intervals": [
+    {
+      "open_utc": "2025-11-01T16:00:00+00:00",
+      "next_trade_utc": "2025-11-01T21:46:15+00:00"
+    }
+  ],
+  "csv_sha256": "aca42957c6a6b3f7e9c023cdbcec788f1257ba910fd20052aadd7627fa04f205"
+}

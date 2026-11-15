@@ -1,0 +1,10 @@
+{
+  "mode": "dry_run",
+  "market": "BTC/USD",
+  "isolated_database": true,
+  "public_orderbook": true,
+  "injected_orderbook_outage_blocked_entry": true,
+  "simulated_buy_filled": true,
+  "filled_order_restored_by_id_after_restart": true,
+  "simulated_sell_filled": true
+}

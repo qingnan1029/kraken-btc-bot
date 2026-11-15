@@ -1,0 +1,16 @@
+services:
+  freqtrade:
+    image: freqtradeorg/freqtrade:2026.10
+    working_dir: /freqtrade
+    volumes:
+      - ./user_data:/freqtrade/user_data
+      - ./config.paper.json:/freqtrade/config.paper.json:ro
+    command:
+      - trade
+      - --dry-run
+      - --config
+      - /freqtrade/config.paper.json
+      - --db-url
+      - sqlite:////freqtrade/user_data/paper.sqlite
+      - --logfile
+      - /freqtrade/user_data/paper.log

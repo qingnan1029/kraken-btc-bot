@@ -1,0 +1,163 @@
+{
+  "pair": "BTC/USD",
+  "interval": "4h",
+  "sma_periods": [
+    20,
+    60
+  ],
+  "capital_usd": 1000.0,
+  "stake_fee_inclusive_usd": 100.0,
+  "fee_per_side": 0.008,
+  "drawdown_limit_pct": 5.0,
+  "candle_count": 4834,
+  "windows": {
+    "full": {
+      "start_utc": "2024-09-11T04:00:00+00:00",
+      "end_exclusive_utc": "2026-11-15T16:00:00+00:00",
+      "bars": 4773,
+      "scenarios": [
+        {
+          "slippage_per_side": 0.0005,
+          "strategy": {
+            "end_equity_usd": 971.2003248810449,
+            "net_return_pct": -2.8799675118955093,
+            "max_drawdown_pct": 6.8174903804259595,
+            "buy_count": 45,
+            "closed_round_trips": 45,
+            "fees_paid_usd": 71.77235285042313,
+            "open_position_btc": 0.0
+          },
+          "buy_and_hold": {
+            "end_equity_usd": 1011.9741651993725,
+            "net_return_pct": 1.1974165199372555,
+            "max_drawdown_pct": 10.406217934450941,
+            "buy_count": 1,
+            "closed_round_trips": 0,
+            "fees_paid_usd": 0.7936507936507936,
+            "open_position_btc": 0.0017452784038690739
+          }
+        },
+        {
+          "slippage_per_side": 0.001,
+          "strategy": {
+            "end_equity_usd": 966.7313568057177,
+            "net_return_pct": -3.3268643194282244,
+            "max_drawdown_pct": 7.096672834970702,
+            "buy_count": 45,
+            "closed_round_trips": 45,
+            "fees_paid_usd": 71.73631278529955,
+            "open_position_btc": 0.0
+          },
+          "buy_and_hold": {
+            "end_equity_usd": 1011.8622469373449,
+            "net_return_pct": 1.1862246937344834,
+            "max_drawdown_pct": 10.397836532155985,
+            "buy_count": 1,
+            "closed_round_trips": 0,
+            "fees_paid_usd": 0.7936507936507936,
+            "open_position_btc": 0.001744406636434574
+          }
+        }
+      ]
+    },
+    "development": {
+      "start_utc": "2024-09-11T04:00:00+00:00",
+      "end_exclusive_utc": "2026-03-22T00:00:00+00:00",
+      "bars": 3341,
+      "scenarios": [
+        {
+          "slippage_per_side": 0.0005,
+          "strategy": {
+            "end_equity_usd": 964.1719130915234,
+            "net_return_pct": -3.582808690847661,
+            "max_drawdown_pct": 6.688953961831266,
+            "buy_count": 35,
+            "closed_round_trips": 35,
+            "fees_paid_usd": 55.71464804464486,
+            "open_position_btc": 0.0
+          },
+          "buy_and_hold": {
+            "end_equity_usd": 1019.2413651970742,
+            "net_return_pct": 1.92413651970742,
+            "max_drawdown_pct": 9.695966207600522,
+            "buy_count": 1,
+            "closed_round_trips": 0,
+            "fees_paid_usd": 0.7936507936507936,
+            "open_position_btc": 0.0017452784038690739
+          }
+        },
+        {
+          "slippage_per_side": 0.001,
+          "strategy": {
+            "end_equity_usd": 960.7094706684223,
+            "net_return_pct": -3.9290529331577617,
+            "max_drawdown_pct": 6.958478444129593,
+            "buy_count": 35,
+            "closed_round_trips": 35,
+            "fees_paid_usd": 55.686725121877934,
+            "open_position_btc": 0.0
+          },
+          "buy_and_hold": {
+            "end_equity_usd": 1019.1221833632031,
+            "net_return_pct": 1.912218336320315,
+            "max_drawdown_pct": 9.688156858042781,
+            "buy_count": 1,
+            "closed_round_trips": 0,
+            "fees_paid_usd": 0.7936507936507936,
+            "open_position_btc": 0.001744406636434574
+          }
+        }
+      ]
+    },
+    "holdout": {
+      "start_utc": "2026-03-22T00:00:00+00:00",
+      "end_exclusive_utc": "2026-11-15T16:00:00+00:00",
+      "bars": 1432,
+      "scenarios": [
+        {
+          "slippage_per_side": 0.0005,
+          "strategy": {
+            "end_equity_usd": 1007.0284117895217,
+            "net_return_pct": 0.7028411789521627,
+            "max_drawdown_pct": 2.0449471227645897,
+            "buy_count": 10,
+            "closed_round_trips": 10,
+            "fees_paid_usd": 16.057704805778275,
+            "open_position_btc": 0.0
+          },
+          "buy_and_hold": {
+            "end_equity_usd": 992.3225389018456,
+            "net_return_pct": -0.767746109815437,
+            "max_drawdown_pct": 3.3967255210923413,
+            "buy_count": 1,
+            "closed_round_trips": 0,
+            "fees_paid_usd": 0.7936507936507936,
+            "open_position_btc": 0.0014389795454055026
+          }
+        },
+        {
+          "slippage_per_side": 0.001,
+          "strategy": {
+            "end_equity_usd": 1006.0218861372953,
+            "net_return_pct": 0.6021886137295374,
+            "max_drawdown_pct": 2.083094053280047,
+            "buy_count": 10,
+            "closed_round_trips": 10,
+            "fees_paid_usd": 16.04958766342161,
+            "open_position_btc": 0.0
+          },
+          "buy_and_hold": {
+            "end_equity_usd": 992.230262455029,
+            "net_return_pct": -0.7769737544971012,
+            "max_drawdown_pct": 3.3937228195294495,
+            "buy_count": 1,
+            "closed_round_trips": 0,
+            "fees_paid_usd": 0.7936507936507936,
+            "open_position_btc": 0.0014382607744038015
+          }
+        }
+      ]
+    }
+  },
+  "holdout_gate_passed": true
+}
